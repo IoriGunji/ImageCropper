@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "imagecropper"
+version = "0.1.0"
+description = ""
+authors = ["IoriGunji-Vantiq <igunji@vantiq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.13"
+pillow = "^11.3.0"
+tkinterdnd2 = "^0.4.3"
+pyinstaller = "^6.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
